@@ -9,6 +9,8 @@ gem 'activerecord-jdbcpostgresql-adapter'
 # Heroku
 gem 'rails_12factor', group: :production
 gem 'puma', '< 6', group: :production
+heroku stack
+heroku stack:set heroku-18
 
 # Ruby Gems
 gem 'rack-cors'
